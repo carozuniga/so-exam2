@@ -254,27 +254,35 @@ La documentación con swagger es la siguiente:
 5. Capturas de pantalla:
 
 Ejecución de daemon.py en background:
+
 ![][2]
 
 Prueba de que sí está llenando la base de datos, pasados 7 minutos:
+
 ![][3]
 
 Ejecución de app.py:
+
 ![][4]
 
 Prueba de la url /checks que retorna el ultimo check realizado (cpu, disco, memoria y sshd) y su identificador:
+
 ![][5]
 
 Prueba de la url /checks/cpu/history?size=2, este me retorna el número de los últimos checks de cpu indicado en size:
+
 ![][6]
 
 Prueba de la url /checks/memory/history?size=3, este me retorna el número de los últimos checks de memoria indicado en size:
+
 ![][7]
 
 Prueba de la url /checks/disk/history?size=1, este me retorna el número de los últimos checks de disco indicado en size:
+
 ![][8]
 
 Prueba de la url /checks/sshd/history?size=4, este me retorna el número de los últimos checks de estado de sshd indicado en size:
+
 ![][9]
 
 
